@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+.main_title {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.description_section {
+  display: flex;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  margin-right: 10rem;
+}
+.h3 {
+  color: #7756b4;
+}
+
+.Features {
+  margin-left: 5rem;
+}
+.Features_title {
+  margin-left: -3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.backtoprojects {
+  margin: 2rem;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 12px 40px;
+  background: #9273cd;
+  cursor: pointer;
+}
+.backtoprojects:hover {
+  background: #7756b4;
+  transition: all ease 0.5s;
+}
+
+.linkofbtp {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  display: flex;
+}
+.button_section {
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+h6 {
+  background: #9273cd;
+  font-family: "Poppins", sans-serif;
+
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 5px;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+
+h6:hover {
+  transform: scale(1.3);
+  background-color: #6d5599;
+  transition: ease-in-out 0.5s;
+}
+
+.linkForCode h6 {
+  padding: 15px 72.5px;
+}

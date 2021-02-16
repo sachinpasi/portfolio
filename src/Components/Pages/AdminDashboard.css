@@ -1,0 +1,160 @@
+.nav {
+  font-family: "Poppins", sans-serif;
+  background-color: #8d3daf;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.dash_h3 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+  color: white;
+}
+.h1 {
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.dashboard_card {
+  font-family: "Poppins", sans-serif;
+  padding-top: 5em;
+  padding-bottom: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard_center {
+  height: 91vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard_container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  margin-top: 8rem;
+}
+.dashboard_big_container {
+  background-color: #cad5e2;
+  height: 35em;
+  width: 80em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 16px;
+  overflow: hidden;
+  -webkit-box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+.dashboard_container .dashboard_card {
+  position: relative;
+  cursor: pointer;
+}
+
+.dashboard_container .dashboard_card .dash_face {
+  width: 350px;
+  height: 220px;
+  transition: 0.5s;
+  border-radius: 0.5rem 2rem;
+}
+
+.dashboard_container .dashboard_card .dash_face.face1 {
+  position: relative;
+  background: #8d3daf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px) !important;
+}
+
+.dashboard_container .dashboard_card:hover .dash_face.face1 {
+  background: #9273cd;
+  transform: translateY(40px) !important;
+}
+
+.dashboard_container .dashboard_card .dash_face.face1 .content {
+  opacity: 0.4;
+  transition: 0.5s;
+}
+
+.contadashboard_containeriner .dashboard_card:hover .dash_face.face1 .content {
+  opacity: 1;
+}
+
+.dashboard_container .dashboard_card .dash_face.face1 .content img {
+  align-items: center;
+  max-width: 100px;
+}
+
+.dashboard_container .dashboard_card .dash_face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff !important;
+  text-align: center;
+  font-size: 1.5em;
+}
+.dashboard_container .dashboard_card .dash_face.face1 .content h5 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff !important;
+  text-align: center;
+  font-size: 1em;
+  margin-top: -5px;
+}
+
+.dashboard_container .dashboard_card .dash_face.dash_face2 {
+  position: relative;
+  background: #8d3daf !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6) !important;
+  transform: translateY(-50px) !important;
+}
+
+.dashboard_container .dashboard_card:hover .dash_face.dash_face2 {
+  transform: translateY(0) !important;
+  background-color: #652a7e !important;
+}
+
+.dashboard_container .dashboard_card .dash_face.dash_face2 .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard_container .dashboard_card .dash_face.dash_face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #222;
+  padding: 5px;
+  border: 1px solid #222;
+}
+
+.dashboard_container .dashboard_card .dash_face.dash_face2 .content a:hover {
+  background: #222;
+  color: #fff;
+}

@@ -1,0 +1,117 @@
+.nav {
+  font-family: "Poppins", sans-serif;
+  background-color: #8d3daf;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.h1 {
+  color: white;
+}
+
+.message_center {
+  height: 91vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backTo {
+  margin: 1rem;
+}
+
+.backto_h2 {
+  padding: 0.7rem;
+  background-color: #8d3daf;
+  font-family: "Poppins", sans-serif;
+
+  color: white;
+}
+.backto_h2:hover {
+  background-color: #59266e;
+}
+
+.message_big_container {
+  background-color: #cad5e2;
+  height: 35em;
+  width: 80em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 16px;
+  overflow: hidden;
+  -webkit-box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+
+.message_heading {
+  font-family: "Poppins", sans-serif;
+  background-color: #8d3daf;
+  display: flex;
+  justify-content: center;
+
+  color: white;
+}
+
+.message_container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.message_data {
+  border-radius: 16px;
+  margin: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 15px 15px 27px #e1e1e31c, -15px -15px 27px #ffffff1e;
+}
+
+.message_email {
+  align-items: flex-start;
+  color: black;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.message_message {
+  /* border: 1px solid black; */
+  background-color: #cad5e270;
+  border-radius: 0.7rem;
+  padding: auto;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding-top: 2rem;
+  padding-left: 5px;
+  padding-bottom: 2rem;
+}
+.message_h3 {
+  font-size: 1.2rem;
+  color: black;
+}
+.message_h5 {
+  color: red;
+  margin-top: 0.5rem;
+}
+
+.message_swipe {
+  display: flex;
+  justify-content: center;
+  color: #8d3daf;
+  font-family: "Poppins", sans-serif;
+}

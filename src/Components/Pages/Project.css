@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+.project_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+.project_title {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+.card {
+  font-family: "Poppins", sans-serif;
+
+  padding-top: 5em;
+  padding-bottom: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.card_title {
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.container .card {
+  position: relative;
+  cursor: pointer;
+}
+
+.container .card .face {
+  width: 350px;
+  height: 220px;
+  transition: 0.5s;
+  border-radius: 0.5rem 2rem;
+}
+
+.container .card .face.face1 {
+  position: relative;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1 {
+  background: #9273cd;
+  transform: translateY(40px);
+}
+
+.container .card .face.face1 .content {
+  opacity: 0.4;
+  transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .card .face.face1 .content img {
+  align-items: center;
+  max-width: 100px;
+}
+
+.container .card .face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+.container .card .face.face1 .content h5 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+  margin-top: -5px;
+}
+
+.container .card .face.face2 {
+  position: relative;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2 {
+  transform: translateY(0);
+  background-color: white;
+}
+
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.container .card .face.face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #222;
+  padding: 5px;
+  border: 1px solid #222;
+}
+
+.container .card .face.face2 .content a:hover {
+  background: #222;
+  color: #fff;
+}

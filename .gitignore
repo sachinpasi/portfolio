@@ -1,0 +1,8 @@
+node_module
+node_modules
+.firebase/
+.firebaserc
+Kxt_oywk_400x400.jpg
+build/
+firebase.json
+
