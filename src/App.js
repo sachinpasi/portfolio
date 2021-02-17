@@ -18,7 +18,8 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import firebaseApp from "./Firebase";
 import AdminDashboard from "./Components/Pages/AdminDashboard";
-import Messages from "./Components/Pages/Messages";
+
+import MessageList from "./Components/Pages/MessageList";
 function App() {
   const [user, setUser] = useState(null);
   return (
@@ -39,7 +40,8 @@ function App() {
             <Route exact path="/Contact" component={Contact} />
             <Route exact path="/AdminLogin" component={AdminLogin} />
             <Route exact path="/AdminDashboard" component={AdminDashboard} />
-            <Route exact path="/Messages" component={Messages} />
+
+            <Route exact path="/MessagesList" component={MessageList} />
           </Switch>
         </UserContext.Provider>
       </Router>

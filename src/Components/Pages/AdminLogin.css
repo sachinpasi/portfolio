@@ -9,7 +9,7 @@
   color: white;
 }
 .admincenter {
-  height: 91vh;
+  height: 83vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -73,6 +73,7 @@
   padding: 0.7rem;
   margin: 0.7rem;
   background-color: white !important;
+  border: none;
 }
 .button {
   margin-top: 1rem;

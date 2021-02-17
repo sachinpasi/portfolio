@@ -14,15 +14,28 @@ const AdminDashboard = () => {
         <div className="nav">
           <h1 className="h1">Dashboard</h1>
         </div>
-        <div className="backTo">
-          <Link to="/" className="backto_h2">
-            Back To Home
-          </Link>
+        <div className="top_buttons">
+          <div className="backTo">
+            <Link to="/" className="backto_h2">
+              Back To Home
+            </Link>
+          </div>
+          <div className="SignOut">
+            <button
+              onClick={() => {
+                context.setUser(null);
+              }}
+              className="SignOut_Link"
+            >
+              Sign Out
+            </button>
+          </div>
         </div>
+
         <div className="dashboard_center">
           <div className="dashboard_big_container">
             <div className="dashboard_container">
-              <Link to="/Messages" className="dashboard_card">
+              <Link to="/MessagesList" className="dashboard_card">
                 <div class="dash_face dash_face2">
                   <div class="content">
                     <div class="content">
