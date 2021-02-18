@@ -7,7 +7,7 @@
   margin-top: 5rem;
   width: auto;
 }
-.container {
+.hero_container {
   width: 100%;
 }
 .section_title {
@@ -158,43 +158,76 @@
 }
 
 @media screen and (max-width: 450px) {
-  .about_section {
-    width: 47rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
   .herosection {
-    width: 60rem;
+    width: 100%;
+    height: auto;
   }
-  .skill_section {
-    margin-left: auto;
-    margin-right: auto;
+  .about_section {
+    margin: 3rem;
   }
+
   .section_title {
     display: flex;
-
     justify-content: center;
-  }
-  .Skills_title {
-    display: flex;
-    justify-content: center;
-  }
-
-  .col-1 {
-    margin-bottom: 2rem;
+    font-weight: 1000 !important;
   }
   .section_sub_title {
     display: flex;
     justify-content: center;
   }
-  .col-2_list_page3 {
-    display: flex;
+  .hero_title {
+    font-weight: 1000 !important;
+  }
+  .about_data {
+    text-align: center;
+  }
+  .skill_section {
+    margin: 3rem;
+  }
+  .Skills_title {
+    text-align: center;
+  }
+  .row {
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-left: 5rem;
+  }
+  .col-1 {
+    margin: 0;
+  }
+  .col-1_title {
+    text-align: center;
+    font-size: 1.2rem !important;
+  }
+  .col-1_list {
+    justify-content: center;
+  }
+  .col-2_title {
+    margin-top: 2rem;
+    font-size: 1.2rem !important;
+
+    text-align: center;
+  }
+  .col-2_list {
+    justify-content: center;
   }
   .item_list {
-    margin-left: 5rem;
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .item {
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .item_name {
+    text-align: center;
+    margin-left: 0;
+  }
+  .col-2_list_page3 {
+    margin: 0;
+  }
+  .progress_wrapper {
+    margin-top: 0.7rem;
   }
 }

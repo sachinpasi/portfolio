@@ -9,6 +9,9 @@
   color: white;
 }
 
+.top_buttons {
+  align-items: center;
+}
 .message_center {
   height: 91vh;
   width: 100%;
@@ -18,10 +21,13 @@
 }
 .backTo {
   margin: 1rem;
+  border-radius: 1rem;
 }
 
 .backto_h2 {
   padding: 0.7rem;
+  border-radius: 1rem;
+
   background-color: #8d3daf;
   font-family: "Poppins", sans-serif;
 
@@ -166,4 +172,39 @@ table {
 
 .SignOut_Link:hover {
   background-color: #59266e;
+}
+
+@media screen and (max-width: 450px) {
+  .message_center {
+    width: auto;
+    height: auto;
+    margin: 1rem;
+  }
+  .message_big_container {
+    width: auto;
+    margin-top: 0;
+    height: auto;
+  }
+  .message_container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .message_data {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    margin-top: 3rem;
+  }
+  .top_buttons {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .message_big_container {
+    height: auto;
+    margin-top: 2rem;
+  }
 }

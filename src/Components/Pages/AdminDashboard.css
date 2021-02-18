@@ -158,3 +158,29 @@
   background: #222;
   color: #fff;
 }
+
+@media screen and (max-width: 450px) {
+  .dashboard_center {
+    width: auto;
+    height: auto;
+    margin: 1rem;
+  }
+  .dashboard_big_container {
+    width: auto;
+    margin-top: 5rem;
+    height: auto;
+  }
+  .dashboard_container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .dashboard_card {
+    padding: 0;
+    margin: 0;
+  }
+  .dash_face .dash_face2 {
+    width: 80%;
+  }
+}

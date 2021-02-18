@@ -26,6 +26,9 @@
   color: #7756b4;
 }
 
+.title {
+  font-weight: 800;
+}
 .Features {
   margin-left: 5rem;
 }
@@ -58,6 +61,13 @@
   margin-top: 5rem;
   margin-left: 3rem;
 }
+.features_titile {
+  color: #7756b4;
+}
+.project_p {
+  text-align: justify;
+}
+
 h6 {
   background: #9273cd;
   font-family: "Poppins", sans-serif;
@@ -82,4 +92,73 @@ h6:hover {
 
 .linkForCode h6 {
   padding: 15px 72.5px;
+}
+
+@media screen and (max-width: 450px) {
+  .backtoprojects {
+    display: none;
+    margin: 0;
+  }
+
+  .description_section {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    margin-top: 2rem;
+  }
+  .button_section {
+    margin: 0;
+    justify-content: center;
+  }
+
+  .buttons {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  .main_project {
+    margin: 0;
+    padding: 2rem;
+  }
+  .description {
+    margin: 0;
+  }
+  .linkForCode {
+  }
+  .Features_title {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  .h3 {
+    font-size: 1.5rem;
+  }
+
+  .Features {
+    margin: 0;
+    margin-top: 2rem;
+  }
+  .Features_list {
+    text-align: justify;
+    margin-top: 1rem;
+  }
+  .button_section {
+    margin: 0;
+    margin-top: 3rem;
+  }
+  .h6_projects {
+    justify-content: center;
+  }
+  .linkForCode {
+    justify-content: center;
+    display: flex;
+  }
+  .linkForLiveProject {
+    justify-content: center;
+    display: flex;
+  }
+
+  h6 {
+    border-radius: 2rem;
+  }
 }

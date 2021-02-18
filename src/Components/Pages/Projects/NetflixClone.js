@@ -34,7 +34,7 @@ const NetflixClone = () => {
           data-aos-duration="500"
           className="main_title"
         >
-          <h1>Netflix Clone</h1>
+          <h1 className="title">Netflix Clone</h1>
         </div>
         <div className="description_section">
           <div className="description">
@@ -48,6 +48,7 @@ const NetflixClone = () => {
               </div>
               <div className="Features_list">
                 <ul
+                  className="ul_projects"
                   style={{
                     display: "flex",
                     flexDirection: "column",

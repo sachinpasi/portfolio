@@ -7,6 +7,11 @@
   padding: 5rem 0;
   color: rgba(255, 255, 255, 0.5);
 }
+
+.footer_row {
+  display: flex;
+  flex-wrap: wrap;
+}
 .about__section {
   margin-left: 20rem;
   margin-right: 10rem;
@@ -33,6 +38,8 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 15px;
+  justify-content: center;
+  display: flex;
 }
 
 .explore_link:hover {
@@ -62,69 +69,43 @@
 
 @media screen and (max-width: 450px) {
   .footer_wrapper {
-    width: 60rem;
+    position: relative;
+    overflow: hidden;
+    padding: 5rem 0;
+    background: #171717;
   }
-
-  .row {
-    display: flex;
-    flex-direction: column;
+  .footer_container {
+    width: 100%;
   }
-
-  .about__section {
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
+  .footer_row {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 3rem;
-    margin-bottom: 3rem;
+    width: auto;
   }
-  .explore_section {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .about_p {
-    font-size: 2rem;
-  }
-
-  .Follow_link {
-    margin-left: auto;
-    margin-right: auto;
+  .about__section {
+    margin: 0;
   }
   .about_title {
-    display: flex;
-    font-size: 2rem;
-    justify-content: center;
+    text-align: center;
+  }
+  .about_p {
+    text-align: center;
   }
   .copyright {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .explore_title {
-    display: flex;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    justify-content: center;
-  }
-  .explore_link {
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-  }
-  .follow_link_title {
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
+    text-align: center;
   }
   .explore_section {
-    margin-bottom: 3rem;
+    text-align: center;
+    margin: 0;
+    margin-top: 2rem;
   }
-  .link_list > a {
-    width: auto;
+  .Follow_link {
+    margin-top: 3rem;
+    text-align: center;
   }
-  .MuiSvgIcon-root {
-    font-size: 2rem;
+  .link_list {
+    justify-content: center;
+    margin-bottom: 0;
   }
 }

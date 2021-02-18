@@ -38,7 +38,7 @@ const INotes = () => {
         </div>
         <div className="description_section">
           <div className="description">
-            <p>
+            <p className="project_p">
               This Is A Notes App
               <br />
               With CRUD Functionalty Made Using PHP For Backend And MySQL For
@@ -46,7 +46,7 @@ const INotes = () => {
             </p>
             <div className="Features">
               <div className="Features_title">
-                <h3>Features :</h3>
+                <h3 className="h3">Features :</h3>
               </div>
               <div className="Features_list">
                 <ul

@@ -44,7 +44,9 @@ const MessageList = () => {
         </div>
         <div className="top_buttons">
           <div className="backTo">
-            <Link className="backto_h2">Back To Dashboard</Link>
+            <Link to="/AdminDashboard" className="backto_h2">
+              Back To Dashboard
+            </Link>
           </div>
           <div className="SignOut">
             <button

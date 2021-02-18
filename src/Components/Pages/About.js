@@ -10,7 +10,7 @@ const About = () => {
       <div className="aboutpage_section">
         <div className="aboutpage_title">-About-</div>
         <div className="aboutpage_data">
-          <p>
+          <p className="aboutpage_p">
             I’m Sachin Pasi. I’m a designer who codes. I care deeply about
             creating world-class, useful, and beautiful products that help
             people and make a difference. I can be as involved in your project

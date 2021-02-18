@@ -16,7 +16,6 @@
 
 .card {
   font-family: "Poppins", sans-serif;
-
   padding-top: 5em;
   padding-bottom: 5rem;
   padding-left: 1rem;
@@ -130,4 +129,17 @@
 .container .card .face.face2 .content a:hover {
   background: #222;
   color: #fff;
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: auto;
+  }
+  .card {
+    padding: 0;
+    margin: -40px;
+  }
 }

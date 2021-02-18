@@ -58,6 +58,7 @@ const Contact = () => {
               data-aos="fade-right"
               data-aos-offset="100"
               data-aos-duration="500"
+              className="reach_me_out"
             >
               Reach Me Out!
             </p>
@@ -82,7 +83,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="message">
-                  <label>Message :</label>
+                  <label className="label_message">Message :</label>
                   <textarea
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
@@ -94,7 +95,9 @@ const Contact = () => {
                   data-aos-duration="500"
                   className="submit_button"
                 >
-                  <button type="submit">Submit</button>
+                  <button className="contact_submit_button" type="submit">
+                    Submit
+                  </button>
                 </div>
               </form>
             </div>

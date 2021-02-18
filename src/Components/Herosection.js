@@ -15,7 +15,7 @@ const Herosection = () => {
   }, []);
   return (
     <div className="herosection">
-      <Swiper className="container">
+      <Swiper className="hero_container">
         <SwiperSlide>
           <div className="about_section">
             <div
@@ -23,7 +23,9 @@ const Herosection = () => {
               data-aos-duration="2000"
               className="section_title"
             >
-              <h1 style={{ color: "black" }}>Hi, I'm Sachin</h1>
+              <h1 className="hero_title" style={{ color: "black" }}>
+                Hi, I'm Sachin
+              </h1>
             </div>
             <div
               data-aos="fade-left"

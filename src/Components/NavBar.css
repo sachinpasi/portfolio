@@ -77,20 +77,9 @@ li {
 
 @media screen and (max-width: 450px) {
   .NavbarItem {
-    width: 100%;
+    display: none;
   }
   .banner_img {
-    background: url("https://sn3301files.storage.live.com/y4maG_4YcMCKGyVyGPSM5fxgBeCJ69zYep_BxFYCwMjkk3ybWxKHdN42yziOfzHG6JK7ZAGcIrU7ddID3g53XvoYF8gFzc8lBNTwljV6gt0K7WmC58saeYV_zxQ6wHxr5IezBiP45qfq8QqO07wwAouzZgJBqpCxVRLorAqrY4Qm8C4cgoT35b-qPAA5j6RjU4A?width=2000&height=2000&cropmode=none");
-    background-size: cover;
-    width: 60rem;
-    margin-left: auto;
-    margin-right: auto;
-    height: 56rem;
-  }
-  .Navbar_Menu_Item {
-    color: black;
-  }
-  li {
-    color: #000;
+    display: none;
   }
 }
